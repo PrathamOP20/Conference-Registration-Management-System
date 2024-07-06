@@ -68,7 +68,6 @@ All minutes from meetings with client are documented and can be found in the MoM
 The code directory contains all the source files necessary for the functionality and aesthetics of the conference registration management system. Within the image subdirectory, various icons (e.g., expand.png, export.png) are stored, which are used throughout the user interface to enhance visual comprehension and interaction. The webpage subdirectory houses the core web files:
 
 - template.html: This is the main HTML file used for creating and exporting registration forms. It provides the structure and elements that organizers can customize and deploy.
-- example.html: This file is an example of a registration form generated using template.html, showcasing a practical implementation.
 - script.js and styles.css: These files contain the JavaScript functionality and CSS styles respectively, ensuring dynamic interactions and a consistent, responsive design across the platform.
 
 ## Getting Started
@@ -76,15 +75,15 @@ The code directory contains all the source files necessary for the functionality
 To get started with this project, clone the repository and navigate to it.
 
 ```
-git clone https://github.com/Santhosh-2205/Team35.git
-cd Team35
+git clone git@github.com:PrathamOP20/Conference-Registration-Management-System.git
+cd Conference-Registration-Management-System
 ```
 
-Next navigate to template.html and open with browser.(Can be done from GUI also)
+Next navigate to registration_page.html and open with browser.(Can be done from GUI also)
 
 ```
 cd code/webpage
-xdg-open template.html
+xdg-open registration_page.html
 ```
 
 ## Guide to Creating Registration Forms
